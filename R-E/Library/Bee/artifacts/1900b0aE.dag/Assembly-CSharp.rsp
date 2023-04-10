@@ -354,8 +354,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/script/filestream.cs"
 "Assets/script/move.cs"
 "Assets/script/set_car.cs"
+"Assets/script/set_road.cs"
 "Assets/script/set_signal.cs"
 "Assets/script/set_signal_light.cs"
 -langversion:9.0

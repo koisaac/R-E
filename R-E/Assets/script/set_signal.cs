@@ -15,6 +15,6 @@ public class set_signal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(signal);
+      
     }
 }
