@@ -5,7 +5,8 @@ using UnityEngine;
 using System.Threading;
 using System;
 using System.Linq;
-
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 public class filestream : MonoBehaviour
 {
     public GameObject g;
@@ -21,15 +22,11 @@ public class filestream : MonoBehaviour
     {
 
 
-
-        StreamReader reader = new StreamReader("Assets\\text\\light_signal.txt");//파일 열기
-        
-            string[] a = reader.ReadLine().Split(' ');//한 줄 입력받고 공백을 기준으로 자라서 변수 a에 저장
-            for(int i = 0; i < g.GetComponent<roads_elemaent>().road.Count; i++)//여러가지의 신호등의 신호변경
-            {
-            g.GetComponent<roads_elemaent>().road[i].transform.Find("check_road").transform.Find("signal_light").GetComponent<signal_light_element>().signal = a[i];//신호변경
-               
-            }
-        reader.Close();//파일 닫기
+        string s = File.ReadAllText("Assets\\text\\light_signal.json");//파일 읽기
+        JObject j = JObject.Parse(s);//json처리
+        for(int i = 0; i < g.GetComponent<roads_elemaent>().road.Count; i++)//여러가지의 신호등의 신호변경
+        {
+            g.GetComponent<roads_elemaent>().road[i].transform.Find("check_road").transform.Find("signal_light").GetComponent<signal_light_element>().signal = (string)j["signal"][i.ToString()];//신호변경   
+        }
     }
 }
