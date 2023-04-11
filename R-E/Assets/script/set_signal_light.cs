@@ -15,7 +15,7 @@ public class set_signal_light : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(name == transform.parent.GetComponent<set_signal>().signal)  //신호에 맞추어 신호등의 신호 변경
+        if(name == transform.parent.GetComponent<signal_light_element>().signal)  //신호에 맞추어 신호등의 신호 변경
         {
             GetComponent<MeshRenderer>().material = change_material; //신호 켜기
         }
@@ -25,7 +25,7 @@ public class set_signal_light : MonoBehaviour
         }
 
 
-        if (name == "right_signal" && transform.parent.GetComponent<set_signal>().left_signal) //좌회전 신호 표시
+        if (name == "right_signal" && transform.parent.GetComponent<signal_light_element>().left_signal) //좌회전 신호 표시
         {
             GetComponent<MeshRenderer>().material = change_material; //신호 켜기
         }

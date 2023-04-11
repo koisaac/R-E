@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class set_signal : MonoBehaviour
+public class signal_light_element : MonoBehaviour
 {
     public string signal = "yellow";//신호등 색깔
     public bool left_signal = false;//좌회전 신호

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class set_road : MonoBehaviour
+public class roads_elemaent : MonoBehaviour
 {
     public List<GameObject> road;
     
