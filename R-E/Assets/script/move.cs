@@ -9,7 +9,6 @@ public class move : MonoBehaviour
     private float car_sped_x_p,car_sped_z_p;
     void OnTriggerStay(Collider other)
     {
-        Debug.Log('a');
 
             Debug.Log(other.transform.Find("signal_light").GetComponent<signal_light_element>().signal);
             if (other.transform.Find("signal_light").GetComponent<signal_light_element>().signal == "red")//초록불이면 이동한다
