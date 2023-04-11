@@ -11,14 +11,11 @@ public class move : MonoBehaviour
         Debug.Log('a');
        
         Debug.Log(other.transform.Find("signal_light").GetComponent<set_signal>().signal);
-        if (other.transform.Find("signal_light").GetComponent<set_signal>().signal == "green")//초록불이면 이동한다
+        if (other.transform.Find("signal_light").GetComponent<set_signal>().signal != "red")//초록불이면 이동한다
         {
             transform.Translate(new Vector3((float)-0.2, 0, 0));
         }
-    }
-    void OnTriggerExit(Collider other)
-    {
-            Destroy(gameObject);
+        
     }
     // Start is called before the first frame update
     void Start()
