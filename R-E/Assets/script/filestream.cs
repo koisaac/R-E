@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using System.Threading;
-using System.Diagnostics;
 using System;
 using System.Linq;
 
@@ -23,14 +22,15 @@ public class filestream : MonoBehaviour
 
 
 
-        StreamReader reader = new StreamReader("Assets\\text\\light_signal.txt");
+        StreamReader reader = new StreamReader("Assets\\text\\light_signal.txt");//파일 열기
         
-            string[] a = reader.ReadLine().Split(' ');
-            for(int i = 0; i < g.GetComponent<roads_elemaent>().road.Count; i++)
+            string[] a = reader.ReadLine().Split(' ');//한 줄 입력받고 공백을 기준으로 자라서 변수 a에 저장
+            for(int i = 0; i < g.GetComponent<roads_elemaent>().road.Count; i++)//여러가지의 신호등의 신호변경
             {
-                
-                g.GetComponent<roads_elemaent>().road[i].GetComponentInChildren<signal_light_element>().signal = a[i];
+            g.GetComponent<roads_elemaent>().road[i].transform.Find("check_road").transform.Find("signal_light").GetComponent<signal_light_element>().signal = a[i];
+               
             }
+        Debug.Log(g.GetComponent<roads_elemaent>().road.Count);
         reader.Close();
     }
 }
