@@ -354,13 +354,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/script/button/NewBehaviourScript.cs"
+"Assets/script/element/roads_elemaent.cs"
+"Assets/script/element/signal_light_element.cs"
+"Assets/script/element/start_point_element.cs"
 "Assets/script/filestream.cs"
 "Assets/script/move.cs"
-"Assets/script/roads_elemaent.cs"
-"Assets/script/set_car.cs"
-"Assets/script/set_signal_light.cs"
-"Assets/script/signal_light_element.cs"
-"Assets/script/start_point_element.cs"
+"Assets/script/set/set_car.cs"
+"Assets/script/set/set_signal_light.cs"
 -langversion:9.0
 
 /deterministic
