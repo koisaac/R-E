@@ -1,1 +1,12 @@
-{"traffics":{"at_road1":{"CurrentState":"red","InChanging":5}}}
+{
+    "traffics": {
+        "at_road1": {
+            "CurrentState": "red",
+            "InChanging": 5
+        },
+        "at_road2": {
+            "CurrentState": "red",
+            "InChanging": 5
+        }
+    }
+}

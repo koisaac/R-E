@@ -68,7 +68,7 @@ module.exports = class File{
     }
 
     applyFile(_file){
-        let updatedJson = JSON.stringify(this.filesList[_file]);
+        let updatedJson = JSON.stringify(this.filesList[_file], null, 4);
 
         fs.writeFile(_file, updatedJson, "utf8", (err) => {
             if (err) throw `Having a Problem Accessing To : ${_file}\n${err}`;
