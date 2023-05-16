@@ -1,7 +1,7 @@
 {
   "traffics": {
     "at_road1": {
-      "CurrentState": "red",
+      "CurrentState": "green",
       "leftsignal": "false"
     },
     "at_road2": {
