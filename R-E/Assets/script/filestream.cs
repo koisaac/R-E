@@ -21,12 +21,13 @@ public class filestream : MonoBehaviour
     void Update()
     {
 
-
         string s = File.ReadAllText("Assets\\text\\light_signal.json");//파일 읽기
         JObject j = JObject.Parse(s);//json처리
-        for(int i = 0; i < g.GetComponent<roads_elemaent>().road.Count; i++)//여러가지의 신호등의 신호변경
+
+            for (int i = 0; i < g.GetComponent<roads_elemaent>().road.Count; i++)//여러가지의 신호등의 신호변경
         {
-            g.GetComponent<roads_elemaent>().road[i].transform.Find("check_road").transform.Find("signal_light").GetComponent<signal_light_element>().signal = (string)j["signal"][i.ToString()];//신호변경   
+            g.GetComponent<roads_elemaent>().road[i].transform.Find("check_road").transform.Find("signal_light").GetComponent<signal_light_element>().signal = (string)j["traffics"]["at_road"+(i+1).ToString()]["CurrentState"];//신호변경
+            g.GetComponent<roads_elemaent>().road[i].transform.Find("check_road").transform.Find("signal_light").GetComponent<signal_light_element>().left_signal = (bool)j["traffics"]["at_road" + (i+1).ToString()]["leftsignal"];//신호변경
         }
     }
 }

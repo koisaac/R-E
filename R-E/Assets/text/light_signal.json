@@ -1,0 +1,24 @@
+{
+  "traffics": {
+    "at_road1": {
+      "CurrentState": "red",
+      "leftsignal": "false"
+    },
+    "at_road2": {
+      "CurrentState": "red",
+      "leftsignal": "false"
+    },
+    "at_road3": {
+      "CurrentState": "red",
+      "leftsignal": "false"
+    },
+    "at_road4": {
+      "CurrentState": "red",
+      "leftsignal": "false"
+    },
+    "at_road5": {
+      "CurrentState": "red",
+      "leftsignal": "false"
+    }
+  }
+}

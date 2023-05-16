@@ -459,6 +459,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3819171882576390577, guid: ecd2f6e66ad3e9a409433c3de9789af4, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819171882576390577, guid: ecd2f6e66ad3e9a409433c3de9789af4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3819171882576390578, guid: ecd2f6e66ad3e9a409433c3de9789af4, type: 3}
       propertyPath: m_Name
       value: signal_light

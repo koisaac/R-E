@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class set_car : MonoBehaviour
     void Start()
     {
         for(int i=0;i<number_of_cars;i++) {
+            
             cars.Add(Instantiate(car));//자동차 생성
             cars[i].transform.position = start_point[i].transform.position;//자동차 위치 설정
             cars[i].GetComponent<move>().car_sped_x = start_point[i].GetComponent<start_point_element>().sped_x;//자동차 이동방향 설정

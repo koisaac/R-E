@@ -8,7 +8,10 @@ module.exports = class File{
     }
 
     init(id, data){
-        if (!this.access[id]) console.error(`ERROR\nNo Such An ID : ${id}`);
+        if (!this.access[id])
+        {
+             console.error(`ERROR\nNo Such An ID : ${id}`);
+        }
 
         this.editData(id, [], data);
     }
