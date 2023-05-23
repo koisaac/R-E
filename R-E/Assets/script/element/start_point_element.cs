@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class start_point_element : MonoBehaviour
 {
-    public float sped_x, sped_z;//자동차 이동 방향 설정
+    public int direction;//자동차 이동 방향 설정
     // Start is called before the first frame update
     void Start()
     {

@@ -16,8 +16,7 @@ public class set_car : MonoBehaviour
             
             cars.Add(Instantiate(car));//자동차 생성
             cars[i].transform.position = start_point[i].transform.position;//자동차 위치 설정
-            cars[i].GetComponent<move>().car_sped_x = start_point[i].GetComponent<start_point_element>().sped_x;//자동차 이동방향 설정
-            cars[i].GetComponent<move>().car_sped_z = start_point[i].GetComponent<start_point_element>().sped_z;//자동차 이동방향 설정
+            cars[i].GetComponent<move>().direction = start_point[i].GetComponent<start_point_element>().direction;//자동차 이동방향 설정
         }
     }
 
