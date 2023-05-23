@@ -7,6 +7,8 @@ public class move : MonoBehaviour
 {
     public float car_sped_x,car_sped_z;
     private float car_sped_x_p=0,car_sped_z_p=0;
+ 
+    private int 
     void OnCollisionEnter(Collision collision)
     {
         car_sped_x_p = car_sped_x; //이동 방향 초기화
@@ -31,7 +33,10 @@ public class move : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (car_sped_x > 0)
+        {
+            
+        }
     }
 
     // Update is called once per frame
