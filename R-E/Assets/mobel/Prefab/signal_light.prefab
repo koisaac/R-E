@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3819171881983268167}
   - component: {fileID: 3819171881983268168}
   - component: {fileID: 3819171881983268169}
-  - component: {fileID: 3819171881983268170}
   m_Layer: 0
   m_Name: red
   m_TagString: Untagged
@@ -98,20 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3819171881983268170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3819171881983268172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60ab21fd44c2b534e90de17b5c655c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  set_material: {fileID: 2100000, guid: 1c37c3e475ed88b4dba03168d8e6afc2, type: 2}
-  change_material: {fileID: 2100000, guid: 220f764577e07294ea218194048afc5d, type: 2}
 --- !u!1 &3819171882097687852
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +109,6 @@ GameObject:
   - component: {fileID: 3819171882097687847}
   - component: {fileID: 3819171882097687848}
   - component: {fileID: 3819171882097687849}
-  - component: {fileID: 3819171882097687850}
   m_Layer: 0
   m_Name: green
   m_TagString: Untagged
@@ -210,20 +194,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3819171882097687850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3819171882097687852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60ab21fd44c2b534e90de17b5c655c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  set_material: {fileID: 2100000, guid: 1c37c3e475ed88b4dba03168d8e6afc2, type: 2}
-  change_material: {fileID: 2100000, guid: 2f7a90be279365944b9b60d7336a7bad, type: 2}
 --- !u!1 &3819171882183371576
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +206,6 @@ GameObject:
   - component: {fileID: 3819171882183371571}
   - component: {fileID: 3819171882183371572}
   - component: {fileID: 3819171882183371573}
-  - component: {fileID: 3819171882183371574}
   m_Layer: 0
   m_Name: right_signal
   m_TagString: Untagged
@@ -322,20 +291,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3819171882183371574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3819171882183371576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60ab21fd44c2b534e90de17b5c655c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  set_material: {fileID: 2100000, guid: 1c37c3e475ed88b4dba03168d8e6afc2, type: 2}
-  change_material: {fileID: 2100000, guid: 250914a6b7db4624c97f28ef580952b4, type: 2}
 --- !u!1 &3819171882202591908
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +303,6 @@ GameObject:
   - component: {fileID: 3819171882202591903}
   - component: {fileID: 3819171882202591904}
   - component: {fileID: 3819171882202591905}
-  - component: {fileID: 3819171882202591906}
   m_Layer: 0
   m_Name: yellow
   m_TagString: Untagged
@@ -434,20 +388,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3819171882202591906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3819171882202591908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60ab21fd44c2b534e90de17b5c655c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  set_material: {fileID: 2100000, guid: 1c37c3e475ed88b4dba03168d8e6afc2, type: 2}
-  change_material: {fileID: 2100000, guid: 36f39201997b29647838122bc8ae7ea3, type: 2}
 --- !u!1 &3819171882497765515
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +497,6 @@ GameObject:
   - component: {fileID: 3819171882576390575}
   - component: {fileID: 3819171882576390576}
   - component: {fileID: 3819171882576390577}
-  - component: {fileID: 3819171882576390573}
   m_Layer: 0
   m_Name: signal_light
   m_TagString: Untagged
@@ -650,19 +589,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &3819171882576390573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3819171882576390578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 053e5d8ed5901094182db305300f1a1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signal: red
 --- !u!1 &3819171883009423007
 GameObject:
   m_ObjectHideFlags: 0

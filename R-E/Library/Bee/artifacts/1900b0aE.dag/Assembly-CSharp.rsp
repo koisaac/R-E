@@ -360,6 +360,7 @@
 "Assets/script/FileManager.cs"
 "Assets/script/filestream.cs"
 "Assets/script/move.cs"
+"Assets/script/road_signal.cs"
 "Assets/script/set/set_car.cs"
 "Assets/script/set/set_signal_light.cs"
 "Assets/script/set_car_manager.cs"

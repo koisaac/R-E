@@ -1419,7 +1419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3980b9b3b6e9b23459b91155ca1cea10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  g: {fileID: 1457336749}
+  path: Assets\text\light_signal.json
 --- !u!114 &1457336756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,6 +1833,10 @@ PrefabInstance:
     - target: {fileID: 3637822716918733895, guid: c9488ed418626ca4da7c2317c43a17d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961537729932784311, guid: c9488ed418626ca4da7c2317c43a17d1, type: 3}
+      propertyPath: signal
+      value: red
       objectReference: {fileID: 0}
     - target: {fileID: 7552215149059791331, guid: c9488ed418626ca4da7c2317c43a17d1, type: 3}
       propertyPath: m_Convex

@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 3637822716918733894}
   - component: {fileID: 3637822716918733889}
   - component: {fileID: 3637822716918733888}
+  - component: {fileID: 4961537729932784311}
   m_Layer: 0
   m_Name: road
   m_TagString: Untagged
@@ -199,6 +200,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &4961537729932784311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637822716918733891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b11fb120127a174784debb34183ebfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  set_material: {fileID: 2100000, guid: 1c37c3e475ed88b4dba03168d8e6afc2, type: 2}
+  red_signal: {fileID: 2100000, guid: 220f764577e07294ea218194048afc5d, type: 2}
+  green_signal: {fileID: 2100000, guid: 2f7a90be279365944b9b60d7336a7bad, type: 2}
+  yellow_signal: {fileID: 2100000, guid: 36f39201997b29647838122bc8ae7ea3, type: 2}
+  left_signal_m: {fileID: 2100000, guid: 250914a6b7db4624c97f28ef580952b4, type: 2}
+  signal: red
+  left_signal: 0
+  direction: 0
 --- !u!1 &5048177026784990631
 GameObject:
   m_ObjectHideFlags: 0
