@@ -54,7 +54,6 @@ public class set_road_manager : MonoBehaviour
             {
             Debug.Log(ground.transform.GetChild(i).gameObject);
             this.road.Add(ground.transform.GetChild(i).gameObject) ;
-            //자식 오브젝트 접근 오류 나중에 수정
             Debug.Log(road[i].name);
             }
     }
