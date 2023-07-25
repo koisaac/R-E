@@ -1,12 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using Newtonsoft.Json.Linq;
 using System.IO;
 using UnityEngine;
-using System.Threading;
-using System;
-using System.Linq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 public class filestream : MonoBehaviour
 {
     //ΩÃ±€≈Ê
@@ -35,16 +29,25 @@ public class filestream : MonoBehaviour
     }
     //ΩÃ±€≈Ê
 
-    public string path = "Assets\\text\\light_signal.json";
-    private FileManager f;
 
+
+
+    public string path = "Assets\\text\\light_signal.json";
 
     private filestream()
     {
-        FileManager f = new FileManager(path,true);
+        
 
     }
 
+    public string get_data_string()
+    {
+        return File.ReadAllText(path);
+    }
+    public JObject get_data_jobject()
+    {
+        return JObject.Parse(get_data_string());
+    }
 
 
     void Update()
