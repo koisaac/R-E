@@ -4,7 +4,7 @@
         "is_turn_left": "true"
     },
     {
-        "signal": "red",
+        "signal": "blue",
         "is_turn_left": "true"
     }
 ]
