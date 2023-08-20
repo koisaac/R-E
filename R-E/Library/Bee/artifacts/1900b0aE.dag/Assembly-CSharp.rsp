@@ -360,6 +360,8 @@
 "Assets/Pedestrian System/Scripts/PedestrianSystem.cs"
 "Assets/Pedestrian System/Scripts/PedestrianVehicleCheckTrigger.cs"
 "Assets/Pedestrian System/Scripts/ToolTip.cs"
+"Assets/script/FileStream.cs"
+"Assets/script/signal_manager.cs"
 "Assets/Traffic System/Plugins/FingerGestures/Dev/FingerDebug.cs"
 "Assets/Traffic System/Plugins/FingerGestures/Scripts/Base/ContinuousGestureRecognizer.cs"
 "Assets/Traffic System/Plugins/FingerGestures/Scripts/Base/DiscreteGestureRecognizer.cs"
