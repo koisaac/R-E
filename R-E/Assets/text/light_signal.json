@@ -1,1 +1,10 @@
-{}
+[
+    {
+        "signal": "red",
+        "is_turn_left": "true"
+    },
+    {
+        "signal": "red",
+        "is_turn_left": "true"
+    }
+]
