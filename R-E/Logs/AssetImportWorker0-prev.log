@@ -15,7 +15,7 @@ C:/Users/HP/Desktop/프로그래밍 폴더/unity/R-E/R-E
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52348
+56011
 Successfully changed project path to: C:/Users/HP/Desktop/프로그래밍 폴더/unity/R-E/R-E
 C:/Users/HP/Desktop/프로그래밍 폴더/unity/R-E/R-E
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/HP/Desktop/프로그래밍 폴더/unity/R-E/R-E
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031954 seconds.
+Registered in 0.014778 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
+- Completed reload, in  0.665 seconds
 Domain Reload Profiling:
-	ReloadAssembly (660ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (413ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (80ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (232ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010276 seconds.
+Registered in 0.010703 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Desktop\프로그래밍 폴더\unity\R-E\R-E\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Desktop\프로그래밍 폴더\unity\R-E\R-E\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  0.948 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (949ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (774ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (355ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3471 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (114.2 KB). Loaded Objects now: 3948.
-Memory consumption went from 139.1 MB to 139.0 MB.
-Total: 2.654900 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.092800 ms MarkObjects: 2.267600 ms  DeleteObjects: 0.103600 ms)
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3956.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 2.651900 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.263400 ms  DeleteObjects: 0.102300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,167 +162,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49034.376603 seconds.
-  path: Assets/Traffic System/Prefabs
-  artifactKey: Guid(60ff3b3a746a886499f6688d8676a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs using Guid(60ff3b3a746a886499f6688d8676a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76b1130b75a2c8874128aa041137d13') in 0.005889 seconds 
-========================================================================
-Received Prepare
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource Cubemaps/CubeBlur.shader could not be loaded from the resource file!
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource Cubemaps/CubeCopy.shader could not be loaded from the resource file!
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource Cubemaps/CubeBlend.shader could not be loaded from the resource file!
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource UI/UI-DefaultETC1.shader could not be loaded from the resource file!
-Registering precompiled user dll's ...
-Registered in 0.006711 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Desktop\프로그래밍 폴더\unity\R-E\R-E\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Desktop\프로그래밍 폴더\unity\R-E\R-E\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
-Domain Reload Profiling:
-	ReloadAssembly (929ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (690ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3960.
-Memory consumption went from 139.1 MB to 139.1 MB.
-Total: 2.409300 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.053300 ms  DeleteObjects: 0.085200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource Cubemaps/CubeBlur.shader could not be loaded from the resource file!
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource Cubemaps/CubeCopy.shader could not be loaded from the resource file!
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource Cubemaps/CubeBlend.shader could not be loaded from the resource file!
-Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
-The resource UI/UI-DefaultETC1.shader could not be loaded from the resource file!
-Registering precompiled user dll's ...
-Registered in 0.008842 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Desktop\프로그래밍 폴더\unity\R-E\R-E\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Desktop\프로그래밍 폴더\unity\R-E\R-E\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1012ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.9 KB). Loaded Objects now: 3963.
-Memory consumption went from 139.2 MB to 139.1 MB.
-Total: 11.720700 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.141000 ms MarkObjects: 11.152600 ms  DeleteObjects: 0.113000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 243.560179 seconds.
-  path: Assets/Traffic System/Editor
-  artifactKey: Guid(f0a42592250beeb469e57885524d88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Editor using Guid(f0a42592250beeb469e57885524d88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4048e9d79abd180edbc3e62a968f4d99') in 0.005906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.965180 seconds.
-  path: Assets/Traffic System/Materials
-  artifactKey: Guid(cfe058efb33eb074e8460c31e69da781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Materials using Guid(cfe058efb33eb074e8460c31e69da781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8393e3c53c33bfd5905f9093a9a1092') in 0.002808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.666730 seconds.
-  path: Assets/Traffic System/Models
-  artifactKey: Guid(3d3a55f26f87ae94db03c27f4ce8dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Models using Guid(3d3a55f26f87ae94db03c27f4ce8dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7294b1ededae19059dac29fb5a72f6c8') in 0.002164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.785060 seconds.
-  path: Assets/Traffic System/Plugins
-  artifactKey: Guid(2afd65e68fc98fe4b9cc0af9639c23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Plugins using Guid(2afd65e68fc98fe4b9cc0af9639c23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fcaf5ee9dcc46372540529334c8c2f') in 0.002581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.621727 seconds.
+  Time since last request: 131618.102719 seconds.
   path: Assets/Traffic System/Prefabs/Traffic System.prefab
   artifactKey: Guid(ad0bf79df4687fa4ebad1d0492014d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Traffic System.prefab using Guid(ad0bf79df4687fa4ebad1d0492014d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb1604dc44a9f116cc53911b3c5c88b') in 0.104110 seconds 
+Start importing Assets/Traffic System/Prefabs/Traffic System.prefab using Guid(ad0bf79df4687fa4ebad1d0492014d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284ea1a0f363f838bcb56cf8e345a85e') in 0.044201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 709.226133 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_0.mat
+  artifactKey: Guid(781512fd05ee7b2498190f59a3b941a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_0.mat using Guid(781512fd05ee7b2498190f59a3b941a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a893233d4506b69741fffd3a3b19ca9') in 0.808732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Traffic System/Materials/Traffic_Light_Light_Red.mat
+  artifactKey: Guid(c4d6c3ca6b663ff4288a6d1bdf492ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic_Light_Light_Red.mat using Guid(c4d6c3ca6b663ff4288a6d1bdf492ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3edcee4f25684de5d5794b41ebc5a2') in 0.079516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Traffic System/Materials/Traffic System Node Linked.mat
+  artifactKey: Guid(3826f3d8751354a4886f692e46faf2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic System Node Linked.mat using Guid(3826f3d8751354a4886f692e46faf2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a068b100f86886b16ca02067128d7d8d') in 0.059858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Traffic System/Materials/Traffic_Light_Glow_Red_Arrow.mat
+  artifactKey: Guid(78427f1fc811f774ab40274023f230f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic_Light_Glow_Red_Arrow.mat using Guid(78427f1fc811f774ab40274023f230f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707c307dada24e456105fdb099447e95') in 0.032475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_2_Intersection.mat
+  artifactKey: Guid(ac5576e232189a149962ea44b7bcc1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_2_Intersection.mat using Guid(ac5576e232189a149962ea44b7bcc1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd793f48f9f03d5fc0800f125d9f90136') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Traffic System/Materials/Traffic System Traffic Light.mat
+  artifactKey: Guid(04e1b1d9c9656fe448d7399527c24af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic System Traffic Light.mat using Guid(04e1b1d9c9656fe448d7399527c24af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca8d89d2c4759077a4e85614b920f24') in 0.010335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Traffic System/Materials/Traffic_Light_Glow_Red.mat
+  artifactKey: Guid(038b33cff7b1171438bba7f361fc1838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic_Light_Glow_Red.mat using Guid(038b33cff7b1171438bba7f361fc1838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3ab9bbaa97b274b58cee6861dc01ff') in 0.008906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_6 _Straight_B.mat
+  artifactKey: Guid(ee2b0ad91ab74b94a9f8af7423b12889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_6 _Straight_B.mat using Guid(ee2b0ad91ab74b94a9f8af7423b12889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8febd07a3d6e234483ac899d7a1d44') in 0.010751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_1_Offramp.mat
+  artifactKey: Guid(bf31a6920a700d44db091253266e6232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_1_Offramp.mat using Guid(bf31a6920a700d44db091253266e6232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f908b0d000c1700af59418d1be73734b') in 0.010808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_2_Straight.mat
+  artifactKey: Guid(a6a378ea2c6ff4148a4a1dd014df49a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_2_Straight.mat using Guid(a6a378ea2c6ff4148a4a1dd014df49a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de1518382e7e7bd2c93e621be657c16') in 0.011309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_2_Curved.mat
+  artifactKey: Guid(7003f5c3072eece439ecb46deeb8b206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_2_Curved.mat using Guid(7003f5c3072eece439ecb46deeb8b206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3469fbc0ebebe8e3c782b0ca95d2f1a') in 0.009512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_6_Ends.mat
+  artifactKey: Guid(8764487aac7e0fb498c295b83c89b867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_6_Ends.mat using Guid(8764487aac7e0fb498c295b83c89b867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326f79e698c0dc26b2bc04fbd04f4240') in 0.010703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Traffic System/Materials/Traffic_Light_Light_Grey.mat
+  artifactKey: Guid(0389da684e7bdd640931dfc2386481d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic_Light_Light_Grey.mat using Guid(0389da684e7bdd640931dfc2386481d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c975327fe6fd033685c4922dea430') in 0.033130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Traffic System/Materials/Traffic System Secondary Node Right.mat
+  artifactKey: Guid(956cf5bfd2a7e06459f77f6fd3452f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic System Secondary Node Right.mat using Guid(956cf5bfd2a7e06459f77f6fd3452f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bfde08192b080bf9b41738e3eb6b4c') in 0.051458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Traffic System/Materials/Traffic System Primary Node Left.mat
+  artifactKey: Guid(6bc093d37eff14b4abb937a640ba841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic System Primary Node Left.mat using Guid(6bc093d37eff14b4abb937a640ba841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b88d627a9f4b6076f9980e8fa0b5f') in 0.012066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Traffic System/Materials/Traffic_Light_Glow_Yellow_Arrow.mat
+  artifactKey: Guid(65c96eb17d1b01e4591b8151a7122a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Traffic_Light_Glow_Yellow_Arrow.mat using Guid(65c96eb17d1b01e4591b8151a7122a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89571f2cd692ad95be9815ff5a844087') in 0.010712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Traffic System/Materials/Road_Texture_Lanes_4_Ends.mat
+  artifactKey: Guid(d9c0329c3effb004496cecb643575a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Road_Texture_Lanes_4_Ends.mat using Guid(d9c0329c3effb004496cecb643575a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71edce52e21fc2148b1aa315412c34e8') in 0.010411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Traffic System/Materials/Tooltip_Debug.mat
+  artifactKey: Guid(f9b1b74272196f34e98ed783411bff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Tooltip_Debug.mat using Guid(f9b1b74272196f34e98ed783411bff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd10ad469287827b452cef1a98fd4c0') in 0.010574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Traffic System/Materials/Tooltip_Edit.mat
+  artifactKey: Guid(111ff5d1e0878db4590a46970b2f653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Materials/Tooltip_Edit.mat using Guid(111ff5d1e0878db4590a46970b2f653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5286b7e43649317919980f9b9e02138f') in 0.008847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.732579 seconds.
+  path: Assets/Traffic System/Docs/instructions.rtf
+  artifactKey: Guid(d9fcdd13071ae01448a5368678f67155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic System/Docs/instructions.rtf using Guid(d9fcdd13071ae01448a5368678f67155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d64ed2aa9f7eed538c8c1483f974a9') in 0.019075 seconds 
