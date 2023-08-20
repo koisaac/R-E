@@ -9,7 +9,7 @@ class App(){
         int id;
     }
 
-    static void Main(strineg[] __dir__, string[] __path__){
+    static void Main(strineg[] __dir__,string[] __path__){
         FileManager fileManager = new FileManager(__dir__ + __path__, true);
 
         List<Data> list = new List<Data>();
