@@ -6,6 +6,13 @@ using UnityEngine;
 public class signal_manager : MonoBehaviour
 {
     // Start is called before the first frame update
+
+
+    public List<GameObject> signallight;
+
+
+
+
     void Start()
     {
         List<SignalData> signalData = FileStream.Instance.GetFile_SignalData(FileStream.signaldata);
