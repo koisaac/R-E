@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "signal": "red",
+            "hold_time": 3
+        },
+        {
+            "signal": "green",
+            "hold_time": 3
+        }
+    ]
+]

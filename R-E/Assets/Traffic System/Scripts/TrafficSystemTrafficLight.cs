@@ -41,7 +41,7 @@ public class TrafficSystemTrafficLight : MonoBehaviour
 		}
 
 		if(m_lightRedArrow)
-			m_lightRedArrow.gameObject   .SetActive(true);
+			m_lightRedArrow.gameObject   .SetActive(false);
 		if(m_lightYellowArrow)
 			m_lightYellowArrow.gameObject.SetActive(false);
 		if(m_lightGreenArrow)
@@ -86,16 +86,6 @@ public class TrafficSystemTrafficLight : MonoBehaviour
 				m_lightYellow.gameObject.SetActive(false);
 				m_lightGreen.gameObject .SetActive(true);
 
-				if(a_useLightArrows)
-				{
-					if(m_lightRedArrow)
-						m_lightRedArrow.gameObject   .SetActive(false);
-					if(m_lightYellowArrow)
-						m_lightYellowArrow.gameObject.SetActive(false);
-					if(m_lightGreenArrow)
-						m_lightGreenArrow.gameObject .SetActive(true);
-				}
-
 //				m_lightRed.material   .SetColor( "_Color", Color.black );
 //				m_lightYellow.material.SetColor( "_Color", Color.black );
 //				m_lightGreen.material .SetColor( "_Color", Color.green );
@@ -136,15 +126,6 @@ public class TrafficSystemTrafficLight : MonoBehaviour
 				m_lightYellow.gameObject.SetActive(true);
 				m_lightGreen.gameObject .SetActive(false);
 
-				if(a_useLightArrows)
-				{
-					if(m_lightRedArrow)
-						m_lightRedArrow.gameObject   .SetActive(false);
-					if(m_lightYellowArrow)
-						m_lightYellowArrow.gameObject.SetActive(true);
-					if(m_lightGreenArrow)
-						m_lightGreenArrow.gameObject .SetActive(false);
-				}
 
 //				m_lightRed.material   .SetColor( "_Color", Color.black );
 //				m_lightYellow.material.SetColor( "_Color", Color.yellow );
@@ -157,15 +138,6 @@ public class TrafficSystemTrafficLight : MonoBehaviour
 				m_lightYellow.gameObject.SetActive(false);
 				m_lightGreen.gameObject .SetActive(false);
 
-				if(a_useLightArrows)
-				{
-					if(m_lightRedArrow)
-						m_lightRedArrow.gameObject   .SetActive(true);
-					if(m_lightYellowArrow)
-						m_lightYellowArrow.gameObject.SetActive(false);
-					if(m_lightGreenArrow)
-						m_lightGreenArrow.gameObject .SetActive(false);
-				}
 
 //				m_lightRed.material   .SetColor( "_Color", Color.red );
 //				m_lightYellow.material.SetColor( "_Color", Color.black );
@@ -173,7 +145,16 @@ public class TrafficSystemTrafficLight : MonoBehaviour
 			}
 				break;
 			}
-		}
+            if (a_useLightArrows)
+            {
+                if (m_lightRedArrow)
+                    m_lightRedArrow.gameObject.SetActive(false);
+                if (m_lightYellowArrow)
+                    m_lightYellowArrow.gameObject.SetActive(false);
+                if (m_lightGreenArrow)
+                    m_lightGreenArrow.gameObject.SetActive(true);
+            }
+        }
 	}
 
 	void OnTriggerEnter( Collider a_obj )

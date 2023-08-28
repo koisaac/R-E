@@ -362,6 +362,8 @@
 "Assets/Pedestrian System/Scripts/ToolTip.cs"
 "Assets/script/button.cs"
 "Assets/script/cameraManger.cs"
+"Assets/script/FileInStream.cs"
+"Assets/script/FileOutStream.cs"
 "Assets/script/FileStream.cs"
 "Assets/script/signal_manager.cs"
 "Assets/Traffic System/Plugins/FingerGestures/Dev/FingerDebug.cs"

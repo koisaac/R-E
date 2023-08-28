@@ -1,10 +1,1 @@
-[
-    {
-        "signal": "red",
-        "is_turn_left": "true"
-    },
-    {
-        "signal": "blue",
-        "is_turn_left": "true"
-    }
-]
+[{"signal":"green","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false},{"signal":"red","is_turn_left":false}]

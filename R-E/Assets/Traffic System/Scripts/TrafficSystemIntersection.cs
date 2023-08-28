@@ -10,7 +10,7 @@ public class TrafficSystemIntersection : MonoBehaviour
 		DUAL   = 1                       // DUAL   = all the lights in m_lightsA will turn green and then all the lights in m_lightsB will turn green allow for multi lane movement within an intersection
 	}
 
-	public  bool                         m_automatic        = true;                                              // This allows users to toggle the traffic intersection (lights) manually if they choose too. Auto is default so they don't have to worry about it, just place in the editor and away they go.
+	private  bool                         m_automatic        = false;                                              // This allows users to toggle the traffic intersection (lights) manually if they choose too. Auto is default so they don't have to worry about it, just place in the editor and away they go.
 
 
 	public  IntersectionSystem           m_intersectionSystem = IntersectionSystem.SINGLE;                       // SINGLE = one light will turn green at any one time and cycle through each light in the m_lights container.
@@ -23,7 +23,7 @@ public class TrafficSystemIntersection : MonoBehaviour
 	private List<TrafficSystemTrafficLight>  m_priorityLightQueue      = new List<TrafficSystemTrafficLight>();
 	private bool                             m_lightsAGreen     = true;                                          // used only with DUAL Intersection System... This is a toggle to know when to turn all the m_lightsA or m_lightsB green
 	public  int                              m_lightIndex       = 0;
-	public  bool                             m_activateOnStart  = true;
+	private  bool                             m_activateOnStart  = false;
 	private bool                             m_active           = false;
 	public  float                            m_yellowDuration   = 2.0f;                                          // FYI, the green duration is on an individual light (TrafficSystemTrafficLight.cs)
 	public  float                            m_redDuration      = 2.0f;

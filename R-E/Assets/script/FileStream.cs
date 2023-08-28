@@ -11,19 +11,77 @@ public class SignalData
 {
     public string signal;
     public bool is_turn_left;
+    public SignalData(string signal, bool is_turn_left)
+    {
+        this.signal = signal;
+        this.is_turn_left= is_turn_left;
+    }
+
+
 }
+
+[System.Serializable]
+public class SignalRules
+{
+    public string signal;
+    public int hold_time;
+}
+
+
 
 class FileStream : MonoBehaviour
 {
 
-    public string json_filePath;
-    private const string SignalData = "Signal"; 
+
+
+    public string json_SignalData_filePath;
+    public string json_signalRules_filePath;
+    private const string SignalData = "Signal";
+    private const string RulesData = "Rules";
+
+    public static string signaldata {
+        get
+        {
+            return SignalData;
+        }
+    }
+    public static string rulesData
+    {
+        get
+        {
+            return RulesData;
+        }
+    }
+
+    public GameObject this_object;
+
+
+    void Start()
+    {
+
+
+
+        int light_number = this_object.GetComponent<signal_manager>().signallight.Count;
+        for (int i = 0; i < light_number*4; i++)
+        {
+            Debug.Log(i);
+            FileOutStream.Instance.add_signal("red",false);
+        }
+
+        this_object.GetComponent<signal_manager>().SetSignal();
+
+        
+
+
+
+    }
 
     private static FileStream filestream = null;
     void Awake()
     {
         if (filestream == null)
         {
+
             filestream = this;
         }
         else if (filestream != this)
@@ -43,21 +101,10 @@ class FileStream : MonoBehaviour
         }
     }
 
-    public static string signaldata => SignalData;
-
-    public string GetFile_string(string path)
-    {
-        return File.ReadAllText(path);
-    }
-
-    public List<SignalData> GetFile_SignalData(string path)
-    {
-        switch (path)
-        {
-            case "Signal":
-                return JsonConvert.DeserializeObject<List<SignalData>>(GetFile_string(json_filePath));
-            default:
-                return JsonConvert.DeserializeObject<List<SignalData>>(GetFile_string(path));
-        }
-    }
+    
 }
+
+
+
+
+
