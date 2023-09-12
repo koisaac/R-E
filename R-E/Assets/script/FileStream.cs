@@ -24,6 +24,7 @@ public class SignalData
 public class SignalRules
 {
     public string signal;
+    public bool is_turn_left;
     public int hold_time;
 }
 

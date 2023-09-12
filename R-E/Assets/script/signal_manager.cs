@@ -14,10 +14,12 @@ public class signal_manager : MonoBehaviour
     public class signal_change_rules
     {
         public string signal;
+        public bool is_turn_left;
         public int hold_time;
-        public signal_change_rules(string signal, int hold_time)
+        public signal_change_rules(string signal, bool is_turn_left ,int hold_time)
         {
             this.signal = signal;
+            this.is_turn_left= is_turn_left;
             this.hold_time = hold_time;
         }
     }
@@ -25,15 +27,15 @@ public class signal_manager : MonoBehaviour
     {
         public signal_change_rules rule;
         public linkedList next;
-        public linkedList(string signal, int hold_time, bool is_first = false)
+        public linkedList(string signal, bool is_turn_left, int hold_time, bool is_first = false)
         {
-            signal_change_rules rules = new signal_change_rules(signal, hold_time);
+            signal_change_rules rules = new signal_change_rules(signal, is_turn_left ,hold_time);
             this.rule = rules;
             if (is_first) this.next = this;
         }
         public linkedList add(signal_change_rules rule)
         {
-            linkedList list1 = new linkedList(rule.signal, rule.hold_time);
+            linkedList list1 = new linkedList(rule.signal, rule.is_turn_left, rule.hold_time);
             list1.next = this.next;
             this.next = list1;
             return list1;
@@ -77,10 +79,8 @@ public class signal_manager : MonoBehaviour
                         Status = TrafficSystemTrafficLight.Status.RED;
                         break;
                 }
-
-
-
-                signallight[i].transform.GetChild(j).GetComponent<TrafficSystemTrafficLight>().SetStatus(Status);
+                
+                signallight[i].transform.GetChild(j).GetComponent<TrafficSystemTrafficLight>().SetStatus(Status, signals[i * 4 + j].is_turn_left);
             }
         }
     }
@@ -92,11 +92,11 @@ public class signal_manager : MonoBehaviour
         List<List<SignalRules>> signalRules = FileInStream.Instance.GetFile_SignalRules();
         
         for(int i = 0;i < signalRules.Count;i++) {
-            rules.Add(new linkedList(signalRules[i][0].signal, signalRules[i][0].hold_time, true));
+            rules.Add(new linkedList(signalRules[i][0].signal, signalRules[i][0].is_turn_left, signalRules[i][0].hold_time, true));
             start_time.Add(Time.time);
             for(int j = 1;j< signalRules[i].Count; j++)
             {
-                rules[i].add(new signal_change_rules(signalRules[i][j].signal, signalRules[i][j].hold_time));
+                rules[i].add(new signal_change_rules(signalRules[i][j].signal, signalRules[i][j].is_turn_left,signalRules[i][j].hold_time));
             }
 
 

@@ -1,11 +1,13 @@
 [
     [
         {
-            "signal": "red",
-            "hold_time": 3
+            "signal": "green",
+            "is_turn_left": true,
+            "hold_time": 25
         },
         {
-            "signal": "green",
+            "signal": "yellow",
+            "is_turn_left": false,
             "hold_time": 3
         }
     ]
