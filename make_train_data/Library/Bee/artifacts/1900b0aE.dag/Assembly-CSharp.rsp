@@ -360,6 +360,7 @@
 "Assets/script/FileInStream.cs"
 "Assets/script/FileOutStream.cs"
 "Assets/script/FileStream.cs"
+"Assets/script/set_situation.cs"
 "Assets/script/signal_manager.cs"
 "Assets/Traffic System/Plugins/FingerGestures/Dev/FingerDebug.cs"
 "Assets/Traffic System/Plugins/FingerGestures/Scripts/Base/ContinuousGestureRecognizer.cs"

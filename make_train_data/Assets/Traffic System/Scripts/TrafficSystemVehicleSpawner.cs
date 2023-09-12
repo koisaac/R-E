@@ -19,6 +19,8 @@ public class TrafficSystemVehicleSpawner : MonoBehaviour
 	public  float               m_randVelocityMax            = 5.0f;
 	public  TrafficSystemNode   m_startNode                  = null;
 	public  bool                m_respawnVehicleOnVehicleDestroy = true;
+
+	public GameObject car_file;
 	private List<TrafficSystemVehicle> m_vehiclePool         = new List<TrafficSystemVehicle>();     
 
 	public TrafficSystemVehicle SpawnRandomVehicle( bool a_ignoreChangeOfSpawning = false )
@@ -39,6 +41,7 @@ public class TrafficSystemVehicleSpawner : MonoBehaviour
 		TrafficSystemVehicle vehicle = Instantiate( m_vehiclePrefabs[randIndex], transform.position, transform.rotation ) as TrafficSystemVehicle;
 		vehicle.m_nextNode           = m_startNode;
 		vehicle.m_velocityMax        = Random.Range(m_randVelocityMin, m_randVelocityMax);
+		vehicle.transform.SetParent(car_file.transform, false);
 		return vehicle;
 	}
 

@@ -28,7 +28,18 @@ public class SignalRules
     public int hold_time;
 }
 
+[System.Serializable]
+public class situation
+{
+    public int[] car_number;
+    public int signal_type;
+}
 
+[System.Serializable]
+public class signal_type
+{
+    public string[] signal;
+}  
 
 class FileStream : MonoBehaviour
 {
@@ -36,6 +47,10 @@ class FileStream : MonoBehaviour
 
 
     public string json_SignalData_filePath;
+    public string json_Situation_filePath;
+    public string json_signal_type_filePath;
+
+
     private const string SignalData = "Signal";
     private const string RulesData = "Rules";
 
