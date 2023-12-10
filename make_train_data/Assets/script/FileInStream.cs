@@ -50,6 +50,10 @@ class FileInStream : MonoBehaviour
     {
         return JsonConvert.DeserializeObject<List<situation>>(GetFile_string(FileStream.Instance.json_Situation_filePath));
     }
+    public int GetFile_Award()
+    {
+        return JsonConvert.DeserializeObject<int>(GetFile_string(FileStream.Instance.json_Award_filePath));
+    }
     public string[,] GetFile_SignalType()
     {
         return JsonConvert.DeserializeObject<string[,]>(GetFile_string(FileStream.Instance.json_signal_type_filePath));

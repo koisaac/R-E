@@ -57,6 +57,11 @@ public class FileOutStream : MonoBehaviour
         ApplyToFile(jsondata_class);
     }
 
+    public void setAward(float award)
+    {
+        File.WriteAllText(FileStream.Instance.json_Award_filePath, award.ToString());
+    }
+
 
 
 

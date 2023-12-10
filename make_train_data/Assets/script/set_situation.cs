@@ -22,7 +22,7 @@ public class set_situation : MonoBehaviour
 
     void start_test()
     {
-        
+       
     }
 
     // Start is called before the first frame update

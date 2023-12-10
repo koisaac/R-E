@@ -100,7 +100,7 @@ public class TrafficSystemVehicle : MonoBehaviour
 	public  TrafficSystemVehicle        VehicleHit             { get; set; }
 	public  TrafficSystemVehicle        VehicleInSights        { get; set; }
 
-	protected float                     m_waitTimer            = 0.0f;
+	public float                     m_waitTimer            = 0.0f;
 	protected float                     m_waitTime             = 0.0f;
 	public  float                       m_waitTimeMin          = 0.05f;
 	public  float                       m_waitTimeMax          = 0.25f;

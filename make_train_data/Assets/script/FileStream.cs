@@ -35,12 +35,6 @@ public class situation
     public int signal_type;
 }
 
-[System.Serializable]
-public class signal_type
-{
-    public string[] signal;
-}  
-
 class FileStream : MonoBehaviour
 {
 
@@ -49,6 +43,7 @@ class FileStream : MonoBehaviour
     public string json_SignalData_filePath;
     public string json_Situation_filePath;
     public string json_signal_type_filePath;
+    public string json_Award_filePath;
 
 
     private const string SignalData = "Signal";
@@ -67,9 +62,6 @@ class FileStream : MonoBehaviour
 
     void Start()
     {
-
-
-
         int light_number = this_object.GetComponent<signal_manager>().signallight.Count;
         for (int i = 0; i < light_number*4; i++)
         {
@@ -78,11 +70,6 @@ class FileStream : MonoBehaviour
         }
 
         this_object.GetComponent<signal_manager>().SetSignal();
-
-        
-
-
-
     }
 
     private static FileStream filestream = null;
