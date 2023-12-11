@@ -46,17 +46,17 @@ class FileInStream : MonoBehaviour
     {
         return JsonConvert.DeserializeObject<List<SignalData>>(GetFile_string(FileStream.Instance.json_SignalData_filePath)); 
     }
-    public List<situation> GetFile_situation()
+    public situation GetFile_situation()
     {
-        return JsonConvert.DeserializeObject<List<situation>>(GetFile_string(FileStream.Instance.json_Situation_filePath));
+        return JsonConvert.DeserializeObject<situation>(GetFile_string(FileStream.Instance.json_Situation_filePath));
     }
-    public float GetFile_Award()
+    public Award GetFile_Award()
     {
-        return JsonConvert.DeserializeObject<float>(GetFile_string(FileStream.Instance.json_Award_filePath));
+        return JsonConvert.DeserializeObject<Award>(GetFile_string(FileStream.Instance.json_Award_filePath));
     }
-    public string[,] GetFile_SignalType()
+    public string[][] GetFile_SignalType()
     {
-        return JsonConvert.DeserializeObject<string[,]>(GetFile_string(FileStream.Instance.json_signal_type_filePath));
+        return JsonConvert.DeserializeObject<string[][]>(GetFile_string(FileStream.Instance.json_signal_type_filePath));
     }
 
 }

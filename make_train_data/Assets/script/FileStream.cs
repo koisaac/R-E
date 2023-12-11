@@ -33,6 +33,15 @@ public class situation
 {
     public int[] car_number;
     public int signal_type;
+    public bool is_end;
+}
+
+[System.Serializable]
+public class Award
+{
+    public float award;
+    public bool is_renewal;
+    public bool is_stop = false;
 }
 
 class FileStream : MonoBehaviour
@@ -65,12 +74,15 @@ class FileStream : MonoBehaviour
         int light_number = this_object.GetComponent<signal_manager>().signallight.Count;
         for (int i = 0; i < light_number*4; i++)
         {
-            Debug.Log(i);
             FileOutStream.Instance.add_signal("red",false);
         }
 
         this_object.GetComponent<signal_manager>().SetSignal();
     }
+
+
+
+
 
     private static FileStream filestream = null;
     void Awake()

@@ -6,7 +6,10 @@ using UnityEngine;
 public class get_award : MonoBehaviour
 {
     public float waitTimer;
-
+    private bool check = true;
+    private float time_start;
+    public float time = 0;
+    private float sum_time = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +18,21 @@ public class get_award : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        waitTimer = gameObject.GetComponent<TrafficSystemVehicle>().m_waitTimer;
-
+        if (gameObject.GetComponent<TrafficSystemVehicle>().StopMoving)
+        {
+            
+            time+= Time.deltaTime;
+            check = true;
+        }
+        else
+        {
+            if (check)
+            {
+                sum_time += time;
+                check = false;
+            }
+        }
+        waitTimer = time;
+        Debug.Log(waitTimer);
     }
 }

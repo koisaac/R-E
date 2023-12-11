@@ -96,12 +96,12 @@ public class TrafficSystemVehicle : MonoBehaviour
 	public  float                       m_vehicleCheckDistAtLightsCapsule     = 6.0f;
 	public  Vector3                     m_vehicleCheckOffset                      = Vector3.zero; // this offsets all vehicle check values in case the pivot point for a vehicle is incorrect.
 
-	public  bool                        StopMoving             { get; set; }
+	public bool StopMoving;
 	public  TrafficSystemVehicle        VehicleHit             { get; set; }
 	public  TrafficSystemVehicle        VehicleInSights        { get; set; }
 
 	public float                     m_waitTimer            = 0.0f;
-	protected float                     m_waitTime             = 0.0f;
+	public float                     m_waitTime             = 0.0f;
 	public  float                       m_waitTimeMin          = 0.05f;
 	public  float                       m_waitTimeMax          = 0.25f;
 

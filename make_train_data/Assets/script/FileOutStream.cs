@@ -19,7 +19,6 @@ public class FileOutStream : MonoBehaviour
         if (filestream == null)
         {            
             filestream = this;
-            ApplyToFile("[]");
         }
         else if (filestream != this)
         {
@@ -47,7 +46,10 @@ public class FileOutStream : MonoBehaviour
 
         ApplyToFile(jsondata_class);
     }
-
+    public void set_situation(situation situations)
+    {
+        ApplyToFile(FileStream.Instance.json_Situation_filePath, JsonConvert.SerializeObject(situations));
+    }
 
     public void setsignal(int Signal_number, string chae_light)
     {
@@ -57,14 +59,13 @@ public class FileOutStream : MonoBehaviour
         ApplyToFile(jsondata_class);
     }
 
-    public void setAward(float award)
+    public void setAward(float award,bool is_renewal)
     {
-        File.WriteAllText(FileStream.Instance.json_Award_filePath, award.ToString());
+        Award aw = FileInStream.Instance.GetFile_Award();
+        aw.award = award;
+        aw.is_renewal = is_renewal;
+        File.WriteAllText(FileStream.Instance.json_Award_filePath, JsonConvert.SerializeObject(aw));
     }
-
-
-
-
 
     private void ApplyToFile(List<SignalData> JSON)
     {
@@ -72,8 +73,11 @@ public class FileOutStream : MonoBehaviour
 
         File.WriteAllText(FileStream.Instance.json_SignalData_filePath, jsondata_string);
     }
-    private void ApplyToFile(string JSON)
+    private void ApplyToFile(string JSON,string File_path)
     {
-        File.WriteAllText(FileStream.Instance.json_SignalData_filePath, JSON);
+      
+        File.WriteAllText(File_path, JSON);
     }
+
+
 }
