@@ -63,6 +63,7 @@ public class set_situation : MonoBehaviour
         }
         for (int i = 0; i < signal_type[signal].Length; i++)
         {
+            
             FileOutStream.Instance.setsignal(i, signal_type[signal][i]);
         }
         FileOutStream.Instance.set_situation_car_number(car_number);
