@@ -66,7 +66,7 @@ public class FileOutStream : MonoBehaviour
     {
         Award aw = FileInStream.Instance.GetFile_Award();
         aw.award = award;
-        aw.is_renewal = is_renewal;
+        aw.is_crash = is_renewal;
         File.WriteAllText(FileStream.Instance.json_Award_filePath, JsonConvert.SerializeObject(aw));
     }
 
