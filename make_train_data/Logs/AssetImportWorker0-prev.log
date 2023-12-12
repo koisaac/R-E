@@ -15,7 +15,7 @@ C:/Users/super/R-E/make_train_data
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58005
+58357
 Successfully changed project path to: C:/Users/super/R-E/make_train_data
 C:/Users/super/R-E/make_train_data
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/super/R-E/make_train_data
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 69.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016756 seconds.
+Registered in 0.020622 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 167.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.500 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1500ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1183ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (163ms)
-			SetupLoadedEditorAssemblies (445ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (168ms)
+				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018558 seconds.
+Registered in 0.026660 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\super\R-E\make_train_data\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\super\R-E\make_train_data\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.292 seconds
+- Completed reload, in  1.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2293ms)
-		BeginReloadAssembly (311ms)
+	ReloadAssembly (1427ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (1763ms)
-			LoadAssemblies (232ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1061ms)
+			LoadAssemblies (182ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (406ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (901ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (488ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (253ms)
-				ProcessInitializeOnLoadAttributes (552ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (43ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (29ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (56.3 KB). Loaded Objects now: 3601.
 Memory consumption went from 111.4 MB to 111.4 MB.
-Total: 3.739400 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.193300 ms MarkObjects: 2.984800 ms  DeleteObjects: 0.112900 ms)
+Total: 3.368000 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.113900 ms MarkObjects: 2.913700 ms  DeleteObjects: 0.099900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,133 +161,123 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 159610.162072 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca94d948062d3d64f6c4a6e2cfce6f9') in 0.247617 seconds 
+  Time since last request: 161585.452790 seconds.
+  path: Assets/script/Colliddetact.cs
+  artifactKey: Guid(13e9bbf6dd4674c44bcdb25952ec01be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Colliddetact.cs using Guid(13e9bbf6dd4674c44bcdb25952ec01be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e27a72d09ed38a69d481bfe5094b34b') in 0.048305 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 9.046691 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de425a75aa77fbed1bfc5e417e76be5') in 0.022541 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022005 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\super\R-E\make_train_data\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\super\R-E\make_train_data\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1518ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1086ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3604.
+Memory consumption went from 111.1 MB to 111.1 MB.
+Total: 2.724800 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.343000 ms  DeleteObjects: 0.030200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6.805621 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4318e9ec2e028bc97719fac27d4c2c61') in 0.020651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.820128 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142dcf4154cb96995d3739c62c0f1473') in 0.020684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.401887 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392fea0767ca57f2bedad828dd6966a8') in 0.019393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.496502 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9c69c35487f6e099f072286e16628') in 0.023922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.898838 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ef9992cab402f9cf0e88c9407f416f') in 0.019546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.840223 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010ffba3ab37b8cafec7c02effa275b0') in 0.021140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.014430 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10c44dfd86d18e0fd024fc824d6c661') in 0.020225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.261982 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998cae343fc8a3f26b2c213629a6d55f') in 0.020373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.647606 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4b41616ddf7dc0639f27ae682ef9a7') in 0.021387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.063613 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92e856413c9fbb6939fd93da49d0bc3') in 0.029164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.170666 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d9f7c18690572aea733c4972a1b71a') in 0.020808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.236791 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbc9ae315ac249914ee68c37e878e0b') in 0.025042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.808664 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae24931ce77f56cd7b4b919878a6428c') in 0.024741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.982360 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3387e06540f937ae55246cb5a05e33') in 0.024256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.703646 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399e323dcb9f22b0d2537f50660c58a9') in 0.018968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.874288 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6912b2686e526d52270d0d1d1c6611c2') in 0.021337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.892886 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25141ff2c03e4e07b7125a6d72dc6be6') in 0.027107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.586755 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4620f8e00ceadc4d5c4151385eff8779') in 0.021746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.031440 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1e4c6c9add1d7f11ce9e67037d199d') in 0.022564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.107845 seconds.
-  path: Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab
-  artifactKey: Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traffic System/Prefabs/Vehicles/Types/Traffic System Vechile - Full Test Car.prefab using Guid(949278bdf5c0f6a4584057f40f889a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84479b95ead37fab1724290fe4fcb54') in 0.023543 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\super\R-E\make_train_data\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\super\R-E\make_train_data\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1173ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3607.
+Memory consumption went from 111.1 MB to 111.1 MB.
+Total: 3.719500 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.248700 ms MarkObjects: 3.072200 ms  DeleteObjects: 0.047600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
