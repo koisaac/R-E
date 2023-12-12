@@ -34,7 +34,7 @@ public class SignalRules
 public class Award
 {
     public float award;
-    public bool is_renewal;
+    public bool is_crash;
     public bool is_stop = false;
 }
 

@@ -36,7 +36,12 @@ public class train_manager : MonoBehaviour
         for (int i = 0; i < car.transform.childCount; i++)
         {
             award -= car.transform.GetChild(i).GetComponent<get_award>().waitTimer;
+            
         }
-        FileOutStream.Instance.setAward(award, true);
+        if (Colliddetact.IsCrashed)
+        {
+            award -= 99999999999999;
+        }
+        FileOutStream.Instance.setAward(award, Colliddetact.IsCrashed);
     }
 }
