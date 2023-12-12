@@ -12,31 +12,31 @@ public class train_manager : MonoBehaviour
     public GameObject car;
     void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
-            instance = this; 
+            instance = this;
         }
         else
         {
             Destroy(this);
         }
-        
+
     }
     // Start is called before the first frame update
     void Start()
     {
         this.award = 0;
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         award = 0;
-        for(int i = 0;i<car.transform.childCount;i++)
+        for (int i = 0; i < car.transform.childCount; i++)
         {
             award -= car.transform.GetChild(i).GetComponent<get_award>().waitTimer;
         }
-        FileOutStream.Instance.setAward(award,true);
+        FileOutStream.Instance.setAward(award, true);
     }
 }

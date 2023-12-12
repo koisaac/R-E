@@ -12,54 +12,59 @@ public class set_situation : MonoBehaviour
 
     void Awake()
     {
-        
 
-        
+
+
     }
 
     void start_test()
     {
-       
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         string[][] signal_type = FileInStream.Instance.GetFile_SignalType();
-        situation situations = FileInStream.Instance.GetFile_situation();
-        for(int i=0;i<situations.car_number.Length; i++)
+        int[] car_number = new int[4];
+        int signal = FileInStream.Instance.GetFile_situation_signal_type();
+        for (int i = 0; i < car_number.Length; i++)
         {
-            situations.car_number[i] = 0;
+            car_number[i] = 0;
         }
-        for(int i = 0; i<car_file.transform.childCount; i++) {
-            if (car_file.transform.GetChild(i).gameObject.transform.position.z < 280)
-            {
-                situations.car_number[0] += 1;
-            }
-            else if(car_file.transform.GetChild(i).gameObject.transform.position.x < -9)
-            {
-                situations.car_number[1] += 1;
-            }
-            else if (car_file.transform.GetChild(i).gameObject.transform.position.z >305)
-            {
-                situations.car_number[2] += 1;
-            }
-            else if (car_file.transform.GetChild(i).gameObject.transform.position.z > 12)
-            {
-                situations.car_number[3] += 1;
-            }
-        }
-        for(int i = 0;i< signal_type[situations.signal_type].Length; i++)
+        for (int i = 0; i < car_file.transform.childCount; i++)
         {
-            FileOutStream.Instance.setsignal(i, signal_type[situations.signal_type][i]);
+            if (!car_file.transform.GetChild(i).gameObject.activeSelf)
+            {
+                continue;
+            }
+            if (car_file.transform.GetChild(i).gameObject.transform.position.z < -9)
+            {
+                car_number[0] += 1;
+            }
+            else if (car_file.transform.GetChild(i).gameObject.transform.position.x < -9)
+            {
+                car_number[1] += 1;
+            }
+            else if (car_file.transform.GetChild(i).gameObject.transform.position.z > 9)
+            {
+                car_number[2] += 1;
+            }
+            else if (car_file.transform.GetChild(i).gameObject.transform.position.x > 9)
+            {
+                car_number[3] += 1;
+            }
         }
-
-        FileOutStream.Instance.set_situation(situations);
+        for (int i = 0; i < signal_type[signal].Length; i++)
+        {
+            FileOutStream.Instance.setsignal(i, signal_type[signal][i]);
+        }
+        FileOutStream.Instance.set_situation_car_number(car_number);
     }
 }

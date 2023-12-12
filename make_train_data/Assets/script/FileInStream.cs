@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 class FileInStream : MonoBehaviour
 {
 
-    
+
     private static FileInStream filestream = null;
     void Awake()
     {
@@ -44,12 +44,18 @@ class FileInStream : MonoBehaviour
 
     public List<SignalData> GetFile_SignalData()
     {
-        return JsonConvert.DeserializeObject<List<SignalData>>(GetFile_string(FileStream.Instance.json_SignalData_filePath)); 
+        return JsonConvert.DeserializeObject<List<SignalData>>(GetFile_string(FileStream.Instance.json_SignalData_filePath));
     }
-    public situation GetFile_situation()
+
+
+    public int GetFile_situation_signal_type()
     {
-        return JsonConvert.DeserializeObject<situation>(GetFile_string(FileStream.Instance.json_Situation_filePath));
+
+        return GetFile_string(FileStream.Instance.json_Situation_signal_type_filePath)[0] - 48;
+
     }
+
+
     public Award GetFile_Award()
     {
         return JsonConvert.DeserializeObject<Award>(GetFile_string(FileStream.Instance.json_Award_filePath));

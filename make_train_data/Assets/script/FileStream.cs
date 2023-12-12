@@ -14,7 +14,7 @@ public class SignalData
     public SignalData(string signal, bool is_turn_left)
     {
         this.signal = signal;
-        this.is_turn_left= is_turn_left;
+        this.is_turn_left = is_turn_left;
     }
 
 
@@ -28,13 +28,7 @@ public class SignalRules
     public int hold_time;
 }
 
-[System.Serializable]
-public class situation
-{
-    public int[] car_number;
-    public int signal_type;
-    public bool is_end;
-}
+
 
 [System.Serializable]
 public class Award
@@ -50,7 +44,8 @@ class FileStream : MonoBehaviour
 
 
     public string json_SignalData_filePath;
-    public string json_Situation_filePath;
+    public string json_Situation_signal_type_filePath;
+    public string json_Situation_car_number_filePath;
     public string json_signal_type_filePath;
     public string json_Award_filePath;
 
@@ -58,13 +53,14 @@ class FileStream : MonoBehaviour
     private const string SignalData = "Signal";
     private const string RulesData = "Rules";
 
-    public static string signaldata {
+    public static string signaldata
+    {
         get
         {
             return SignalData;
         }
     }
-   
+
 
     public GameObject this_object;
 
@@ -72,9 +68,9 @@ class FileStream : MonoBehaviour
     void Start()
     {
         int light_number = this_object.GetComponent<signal_manager>().signallight.Count;
-        for (int i = 0; i < light_number*4; i++)
+        for (int i = 0; i < light_number * 4; i++)
         {
-            FileOutStream.Instance.add_signal("red",false);
+            FileOutStream.Instance.add_signal("red", false);
         }
 
         this_object.GetComponent<signal_manager>().SetSignal();
@@ -109,7 +105,7 @@ class FileStream : MonoBehaviour
         }
     }
 
-    
+
 }
 
 

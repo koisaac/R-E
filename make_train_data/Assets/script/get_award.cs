@@ -6,7 +6,7 @@ using UnityEngine;
 public class get_award : MonoBehaviour
 {
     public float waitTimer;
-    private bool check = true;
+    private bool check = false;
     private float time_start;
     public float time = 0;
     private float sum_time = 0;
@@ -20,8 +20,11 @@ public class get_award : MonoBehaviour
     {
         if (gameObject.GetComponent<TrafficSystemVehicle>().StopMoving)
         {
-            
-            time+= Time.deltaTime;
+            if (!check)
+            {
+                time = 0;
+            }
+            time += Time.deltaTime;
             check = true;
         }
         else
@@ -33,6 +36,6 @@ public class get_award : MonoBehaviour
             }
         }
         waitTimer = time;
-        Debug.Log(waitTimer);
+
     }
 }
